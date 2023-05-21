@@ -1,0 +1,50 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/robotis/darwin-op/protos/RobotisOp2.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.18667823401697406 0.088312180274387 -0.9784437621853839 2.274561055780828
+  position 6.2551320163184405 5.169095796566418 2.764538776077444
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+RobotisOp2 {
+  translation 3.20449 1.7917 0.267
+  rotation 0 0 -1 0.785401
+  name "ROBOTIS OP2(3)"
+  controller "soccer"
+}
+RobotisOp2 {
+  translation 0.604638 -0.736844 0.286318
+  rotation -0.09269151288480479 0.7040630978699699 0.7040620978698309 0.36971
+  name "ROBOTIS OP2(2)"
+  controller "soccer"
+}
+RobotisOp2 {
+  translation -1.69666 -0.936251 0.286989
+  rotation -0.19497602421007695 0.13421801666578506 0.9715811206407494 0.866726
+  name "ROBOTIS OP2(1)"
+  controller "soccer"
+}
+RobotisOp2 {
+  translation -3.41343 -0.0666955 0.296583
+  rotation 0.08523548525506142 -0.37434493524184126 -0.923363840266726 -0.4789653071795863
+  controller "soccer"
+  controllerArgs [
+    ""
+  ]
+}
+Ball {
+  translation -3.2370919521225554 0.01655650666706369 0.03241367199771714
+  rotation 0.0023110956134677796 1.7800164545884772e-07 0.9999973294149508 2.4843199951901402
+}
